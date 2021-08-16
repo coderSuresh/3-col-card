@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.sec {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding: 40px 30px;
+}
+
+.left {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.middle {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.right {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.desc {
+    margin: 20px 0 40px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9375rem;
+}
+
+.desc, .btn {
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.btn {
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 00.9375rem;
+    position: absolute;
+    bottom: 40px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.l {
+    color: hsl(31, 77%, 52%);
+}
+
+.m {
+    color: hsl(184, 100%, 22%);
+}
+
+.r {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 845px) {
+    .main {
+        margin: 5vh auto;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .sec {
+        width: 400px;
+    }
+
+    .left {
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0;
+    }
+
+    .right {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sec {
+        width: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    .sec {
+        width: 300px;
+    }
+}
+
+@media (max-width: 310px) {
+    .sec {
+        width: 280px;
+    }
+}
