@@ -24,7 +24,7 @@ main {
 .sec {
     position: relative;
     width: 300px;
-    height: 350px;
+    height: 400px;
     padding: 40px 30px;
 }
 
@@ -107,6 +107,7 @@ main {
 
     .sec {
         width: 400px;
+        height: 350px;
     }
 
     .left {
