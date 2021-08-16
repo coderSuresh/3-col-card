@@ -73,6 +73,17 @@ main {
     position: absolute;
     bottom: 40px;
     background-color: hsl(0, 0%, 95%);
+    outline: none;
+}
+
+.btn:focus, .btn:active {
+    outline: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
 }
 
 .l {
