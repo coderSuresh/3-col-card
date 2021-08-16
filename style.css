@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
 }
 
-.main {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@ body {
 }
 
 @media (max-width: 845px) {
-    .main {
+    main {
         margin: 5vh auto;
         flex-direction: column;
         width: 90%;
